@@ -124,6 +124,7 @@ dmypy.json
 
 
 .idea/
+.deploy_scripts/
 
 ### Vagrant ###
 # General
