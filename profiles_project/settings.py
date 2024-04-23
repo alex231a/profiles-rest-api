@@ -25,7 +25,10 @@ SECRET_KEY = '&i7j9_c%ze*cp0d$ut0n-81pv&*=ho21*4plc+vne$($mz(_3q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG', '1')))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = \
+    ['ip-172-31-90-136.ec2.internal',
+     '127.0.0.1'
+]
 
 
 # Application definition
